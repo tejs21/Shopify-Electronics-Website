@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" type="text/css" href="newstyle.css">
+    <link rel="shortcut icon" href="images\cart.png" type="image/svg+xml">
 </head>
 <body>
     <div id="form">
