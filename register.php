@@ -6,8 +6,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" type="text/css" href="newstyle.css">
+    <title>Register Here</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
     <link rel="shortcut icon" href="images\cart.png" type="image/svg+xml">
     <style>
         h1{
@@ -31,7 +31,7 @@ a:hover {
     <h1 class="h1">Welcome to
           <a class="logo">Shopi<span class="span">fy</span></a>
         </h1>
-        <form action="login.php" name="form" method="POST">
+        <form action="registeruser.php" name="form" method="POST">
             
             <div class="input-field">
             <i class="fas fa-lock"></i>
@@ -40,12 +40,18 @@ a:hover {
 
             <div class="input-field">
             <i class="fas fa-lock"></i>
+            <input placeholder="Email" type="text" id="email" name="email"><br><br>
+            </div>
+
+            <div class="input-field">
+            <i class="fas fa-lock"></i>
             <input placeholder="Password" type="Password" id="pass" name="pass"><br><br>
             </div>
-            <input type=submit id="btn" value="login" name="submit"/>
+            
+            <input type="submit" id="btn" value="register" name="register"/>
         </form>
-        <div style="margin-left:117px">
-            <a href="register.php">Register Here</a>
+        <div style="margin-left:125px">
+            <a href="index.php">Login Here</a>
 </div>
 </body>
 </html>
