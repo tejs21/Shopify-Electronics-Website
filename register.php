@@ -18,12 +18,6 @@
   background-color: transparent;
   text-decoration: none;
 }
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
     </style>
 </head>
 <body>
@@ -51,7 +45,7 @@ a:hover {
             <input type="submit" id="btn" value="register" name="register"/>
         </form>
         <div style="margin-left:125px">
-            <a href="index.php">Login Here</a>
+            <a href="login.php">Login Here</a>
 </div>
 </body>
 </html>

@@ -434,13 +434,13 @@ padding-left: 100px;
   position: relative;
   background-color: var(--mint-cream);
   color: var(--space-cadet);
-  font-size: 2rem;
+  font-size: 4rem;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .header-action-btn:is(:hover, :focus):not(:focus-visible) {
-  outline: 2px solid var(--emerald);
+  outline: 5px solid var(--emerald);
 }
 
 .btn-badge {
@@ -479,7 +479,7 @@ padding-left: 100px;
 }
 
 .search-wrapper.active .input-wrapper {
-  visibility: visible;
+  visibility: invisible;
   opacity: 1;
   --scale: 1;
   transition: 0.35s var(--cubic-out);

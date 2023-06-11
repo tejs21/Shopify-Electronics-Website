@@ -10,13 +10,13 @@
             mysqli_query($conn,$query);
 
             echo'<script> 
-            window.location.href = "index.php";
-            alert("Registration Successfull")
+            window.location.href = "login.php";
+            alert("Registration Successfull. Redirecting to Login Page")
             </script>';
         }
         else{
             echo'<script> 
-            window.location.href= "registeruser.php";
+            window.location.href= "register.php";
             alert("Registration Unsuccessfull. Please enter valid data")
             </script>';
         }
