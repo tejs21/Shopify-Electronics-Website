@@ -1,9 +1,14 @@
 <?php
     include("connection.php");
-    $sel= "SELECT * FROM login";
-    $query= mysqli_query($conn,$sel);
-    $result= mysqli_fetch_assoc($query)
-?>
+      $sel= "SELECT * FROM login";
+      $query= mysqli_query($conn,$sel);
+      $result= mysqli_fetch_assoc($query)
+
+//      $getit = ("SELECT * FROM login WHERE username='$username'");
+//      $query= mysqli_query($conn,$getit);
+//      $row = mysql_fetch_assoc($query);
+//      $result = $row['username']
+// ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -198,13 +203,11 @@
           <button class="dropbtn">Welcome <?php
                 echo $result['username'];
               ?> </button>
+
           <div class="dropdown-content">
     <a href="login.php">Logout</a>
   </div>
 </div>
-            
-            
-              
             </button>
           </div>
 
