@@ -1,14 +1,9 @@
 <?php
     include("connection.php");
-      $sel= "SELECT * FROM login";
-      $query= mysqli_query($conn,$sel);
-      $result= mysqli_fetch_assoc($query)
-
-//      $getit = ("SELECT * FROM login WHERE username='$username'");
-//      $query= mysqli_query($conn,$getit);
-//      $row = mysql_fetch_assoc($query);
-//      $result = $row['username']
-// ?>
+       $sel= "SELECT * FROM login";
+       $query= mysqli_query($conn,$sel);
+       $result= mysqli_fetch_assoc($query)
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -176,7 +171,7 @@
           <ul class="navbar-list">
 
             <li>
-              <a href="./index.html" class="navbar-link">Home</a>
+              <a href="./index.php" class="navbar-link">Home</a>
             </li>
 
             <li>
@@ -1813,5 +1808,4 @@
     </script>
 
 </body>
-
 </html>
