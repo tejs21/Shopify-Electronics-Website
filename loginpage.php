@@ -6,16 +6,20 @@
 
         $sql = "select * from login where username = '$username' and password= '$password'";
         $result = mysqli_query($conn,$sql);
-        $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+        $row = mysqli_fetch_array($result);
         $count = mysqli_num_rows($result);
-        if($count==1){
-            header("Location:index.php");
+        if(is_array($row)){
+            $_SESSION["user"] = $row["username"];
+            $_SESSION["pass"] = $row["password"];
         }
         else{
             echo '<script>
                 window.location.href = "login.php";
                 alert("Login Failed")
                 </script>';
+        }
+        if(isset($_SESSION["user"])){
+            header("Location:index.php");
         }
     }
     

@@ -1,8 +1,12 @@
 <?php
-    include("connection.php");
-       $sel= "SELECT * FROM login";
-       $query= mysqli_query($conn,$sel);
-       $result= mysqli_fetch_assoc($query)
+    // @include"connection.php";
+    @include"loginpage.php";
+    session_start();
+     $sel= "SELECT * FROM login";
+     $query= mysqli_query($conn,$sel);
+     $result= mysqli_fetch_assoc($query);
+     $username = $result['username'];
+    // echo "welcome".$_SESSION["user"];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -122,7 +126,8 @@
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 138px;
+  margin-left:10px;
+  min-width: 13px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 10px;
@@ -155,7 +160,7 @@
       <div class="container">
 
         <h1 class="h1">
-          <a href="./index.html" class="logo">Shopi<span class="span">fy</span></a>
+          <a href="./index.php" class="logo">Shopi<span class="span">fy</span></a>
         </h1>
 
         <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
@@ -196,7 +201,7 @@
           <div class="search-wrapper" data-search-wrapper>
           <div class="dropdown">
           <button class="dropbtn">Welcome <?php
-                echo $result['username'];
+                // echo $username
               ?> </button>
 
           <div class="dropdown-content">
@@ -242,7 +247,7 @@
 
 <div class="top-bar">
       <div class="container">
-<marquee width="100%" direction="left" height="30%">
+<marquee width="100%" direction="right" height="30%">
     <p>Free shipping for all order of &#8377 8,000!!!</p>
     </marquee>
     </div>
@@ -1684,7 +1689,7 @@
             </div>
 
             <address class="contact-link">
-              Wakharkar Nagar, Dhule
+              Dhule
             </address>
           </li>
 
