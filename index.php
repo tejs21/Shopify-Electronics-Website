@@ -14,6 +14,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta author="Tejas Bagul">
   <title>Shopify Electronics</title>
 
   <!-- 
@@ -256,7 +257,7 @@
     - #ASIDE
   -->
 
-  <!-- <aside class="aside">
+   <aside class="aside">
 
     <div class="side-panel" data-side-panel="whishlist">
 
@@ -338,9 +339,9 @@
 
       <a href="#" class="panel-btn">View Whishlist</a>
 
-    </div> -->
+    </div> 
 
-    <!-- <div class="side-panel" data-side-panel="cart">
+     <div class="side-panel" data-side-panel="cart">
 
       <button class="panel-close-btn" aria-label="Close cart" data-panel-btn="cart">
         <ion-icon name="close-outline"></ion-icon>
@@ -401,7 +402,7 @@
 
     </div> 
 
-  </aside>-->
+  </aside>
 
 
 
@@ -1706,7 +1707,7 @@
               <ion-icon name="mail-outline"></ion-icon>
             </div>
 
-            <a href="mailto:organica@help.com" class="contact-link">shopify@help.com</a>
+            <a href="mailto:organica@help.com" class="contact-link">tsbagul21@gmail.com</a>
           </li>
 
         </ul>
