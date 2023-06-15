@@ -5,7 +5,6 @@
      $sel= "SELECT * FROM login";
      $query= mysqli_query($conn,$sel);
      $result= mysqli_fetch_assoc($query);
-     $username = $result['username'];
     // echo "welcome".$_SESSION["user"];
 ?>
 <!DOCTYPE html>
