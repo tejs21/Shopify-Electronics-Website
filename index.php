@@ -1613,7 +1613,7 @@
 
         <div class="footer-brand">
 
-          <a href="./index.html" class="logo">Shopi<span class="span">fy</span></a>
+          <a href="./index.php" class="logo">Shopi<span class="span">fy</span></a>
 
           <p class="footer-text">
             Experience the future today with our premium electronic products.
