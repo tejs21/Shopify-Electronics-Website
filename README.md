@@ -1,7 +1,7 @@
 # Shopping-Website
 Shoping Website Project
 with Create user, Log-in and Log-out Functionality
-User details has been recorded in XAMPP local server with Username Password and Email ID
+User details has been recorded in XAMPP local server with Username Password and Email ID....
 
 Screenshots:
 <img width="960" alt="Screenshot 2023-06-12 110312" src="https://github.com/tejs21/Shopify-Electronics-Website/assets/132038772/e12da9be-20b0-4ac9-b6da-d0d72c463754">
